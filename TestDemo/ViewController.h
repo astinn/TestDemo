@@ -9,6 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    
+}
+
+@property (strong, nonatomic) UIButton *buttonLogin;
+@property (strong, nonatomic) UIButton *buttonSignUp;
 
 
 @end
