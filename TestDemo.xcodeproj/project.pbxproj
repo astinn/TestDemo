@@ -13,6 +13,7 @@
 		EAE40D751C4D030F00E516ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAE40D731C4D030F00E516ED /* Main.storyboard */; };
 		EAE40D771C4D030F00E516ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE40D761C4D030F00E516ED /* Assets.xcassets */; };
 		EAE40D7A1C4D030F00E516ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAE40D781C4D030F00E516ED /* LaunchScreen.storyboard */; };
+		EAE40D831C4D139A00E516ED /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE40D821C4D139A00E516ED /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		EAE40D761C4D030F00E516ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAE40D791C4D030F00E516ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EAE40D7B1C4D030F00E516ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAE40D811C4D139A00E516ED /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		EAE40D821C4D139A00E516ED /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				EAE40D781C4D030F00E516ED /* LaunchScreen.storyboard */,
 				EAE40D7B1C4D030F00E516ED /* Info.plist */,
 				EAE40D6A1C4D030F00E516ED /* Supporting Files */,
+				EAE40D811C4D139A00E516ED /* TestViewController.h */,
+				EAE40D821C4D139A00E516ED /* TestViewController.m */,
 			);
 			path = TestDemo;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			files = (
 				EAE40D721C4D030F00E516ED /* ViewController.m in Sources */,
 				EAE40D6F1C4D030F00E516ED /* AppDelegate.m in Sources */,
+				EAE40D831C4D139A00E516ED /* TestViewController.m in Sources */,
 				EAE40D6C1C4D030F00E516ED /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
