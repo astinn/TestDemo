@@ -16,6 +16,7 @@
 @property (strong, nonatomic) UIButton *buttonLogin;
 @property (strong, nonatomic) UIButton *buttonSignUp;
 
+@property (strong, nonatomic) UIButton *buttonSignUp1;
 
 @end
 
